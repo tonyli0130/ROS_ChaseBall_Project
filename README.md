@@ -1,5 +1,5 @@
-# ROS_ChaseBall_Project
-The ChaseBall project simulates a robot model which can chase a movable white ball in the gazebo world environment under the ROS (Robot Operating System) framework. The robot possesses a RGB camera which provides live video feed and this project contains the source code written in C++ language to analyze the images from RGB camera and outputs the direction for the robot to move. 
+# ROS_BallChaser
+The BallChaser project simulates a robot model which can chase a movable white ball in the gazebo world environment under the ROS (Robot Operating System) framework. The robot possesses a RGB camera which provides live video feed and this project contains the source code written in C++ language to analyze the images from RGB camera and outputs the direction for the robot to move. 
 
 ## Installation
 1. Open a new terminal and build the catkin workspace:
@@ -13,7 +13,7 @@ The ChaseBall project simulates a robot model which can chase a movable white ba
   
 2. Clone the project under  **/home/workspace/catkin_ws/src** directory:
 
-    * `git clone https://github.com/tonyli0130/ROS_ChaseBall_Project.git`
+    * `git clone https://github.com/tonyli0130/ROS_BallChaser.git`
  
  3. Make and compiler the project (**remember to source the environment variables in every new opened terminals**):
  
